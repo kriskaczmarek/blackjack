@@ -18,10 +18,10 @@ export const Types = ["spades", "hearts", "diamonds", "clubs"]
 
 export class Card {
 	mapTextToSign = {
+		spades: "&spades;",
 		hearts: "&hearts;",
 		diamonds: "&diams;",
 		clubs: "&clubs;",
-		spades: "&spades;",
 	}
 
 	constructor(weight, type) {
@@ -35,3 +35,4 @@ export class Card {
 		return card
 	}
 }
+
